@@ -7,8 +7,8 @@ internal static class Program
 {
     // Có thể thay các giá trị này bằng biến môi trường EXELY_* khi đưa lên production.
     private const string Endpoint = "https://pmsconnect.test.hopenapi.com/api/PMSConnect.svc?HotelCode=501661";
-    private const string Username = "PMSConnect.501661";
-    private const string Password = "vrCCoANOre";
+    private const string Username = "";
+    private const string Password = "";
     private const string HotelCode = "501661";
 
     private static async Task<int> Main(string[] args)
